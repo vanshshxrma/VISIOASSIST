@@ -1,8 +1,8 @@
-# LLaVaVision
+# Vissioassist
 
 ![Screenshot](screenshot.gif)
 
-A simple "Be My Eyes" web app with a llama.cpp/llava backend created in about an hour using ChatGPT, Copilot, and some minor help from me, [@lxe](https://twitter.com/lxe). It describes what it sees using [SkunkworksAI BakLLaVA-1](https://huggingface.co/SkunkworksAI/BakLLaVA-1) model via [llama.cpp](https://github.com/ggerganov/llama.cpp) and narrates the text using [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API).
+A simple "Vissioassist" web app with a llama.cpp/llava backend created in about an hour using ChatGPT, Copilot, and some minor help from me, [@lxe](https://twitter.com/lxe). It describes what it sees using [SkunkworksAI BakLLaVA-1](https://huggingface.co/SkunkworksAI/BakLLaVA-1) model via [llama.cpp](https://github.com/ggerganov/llama.cpp) and narrates the text using [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API).
 
 Inspired by [Fuzzy-Search/realtime-bakllava](https://github.com/Fuzzy-Search/realtime-bakllava).
 
@@ -43,7 +43,7 @@ Start the server (server options detailed [here](https://github.com/ggerganov/ll
 # ./bin/server -m ggml-model-q4_k.gguf --mmproj mmproj-model-f16.gguf # For CPU
 ```
 
-### Launch LLaVaVision
+### Launch Vissioassist 
 
 Clone and set up the environment:
 
